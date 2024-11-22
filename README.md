@@ -23,4 +23,4 @@ Ricezione dati tramite EUSART
 - Overflow timer1: gestito tramite interrupt
 
 ## Diagramma di flusso
-![diagramma]
+![diagramma](https://github.com/AlessiaConti/Progetto-Sistemi-Elettronici/blob/main/diagramma.jpg)
