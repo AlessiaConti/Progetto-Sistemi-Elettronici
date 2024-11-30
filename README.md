@@ -1,7 +1,7 @@
 # Progetto-Sistemi-Elettronici &#x1F50C;
 
 ## Obiettivo
-Sviluppo di un firmware che permette di regolare la luminosità dei LED, ricevendo dei comandi inseriti da PC tramite l'interfaccia seriale EUSART. Implementazione del codice su scheda di sviluppo PIC.
+Sviluppo di un firmware che permette di regolare la luminosità dei LED di una scheda, ricevendo dei comandi inseriti da PC tramite l'interfaccia seriale EUSART. Implementazione del codice su scheda di sviluppo PIC.
 
 ## Strumenti utilizzati
 - Hardware: PIC16F887 Cedar Pic Board (clock interno 4 MHz)
