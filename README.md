@@ -11,6 +11,8 @@ Realizzazione di un firmware che riceva dal PC tramite interfaccia seriale (EUSA
 - LED: RD0
 - Porta seriale: EUSART
 
+![pic](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ccsinfo.com%2Fproduct_info.php%3Fproducts_id%3D16F877Akit&psig=AOvVaw1DT-uJspAHSfnVVMu80Iaw&ust=1733083590521000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIi_3trthIoDFQAAAAAdAAAAABAJ))
+
 ## Esecuzione
 Ricezione dati tramite EUSART
 - Comandi:
