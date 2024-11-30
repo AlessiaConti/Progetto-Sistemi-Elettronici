@@ -18,11 +18,14 @@ Il codice è nel file [main.asm](https://github.com/AlessiaConti/Progetto-Sistem
   - (+) aumenta luminosità
   - (-) diminuisci luminosità
 - Ricezione dati tramite interfaccia seriale EUSART
-- Generazione manuale della PWM con TIMER1 per regolare luminosità
-- Microcontrollore in SLEEP quando possibile
+- Controllo luminosità:
+  - generazione manuale della PWM con TIMER1
+  - LED on/off con duty-cycle variabile
+- Gestione eventi:
+  - Microcontrollore in SLEEP quando possibile
   - Risveglio dallo SLEEP: break sulla seriale
-- Ricezione dati: gestita tramite polling
-- Overflow timer1: gestito tramite interrupt
+  - Ricezione dati: gestita tramite polling
+  - Overflow timer1: gestito tramite interrupt
 
 ## Diagramma di flusso
 ![diagramma](img/tesina.jpg)
