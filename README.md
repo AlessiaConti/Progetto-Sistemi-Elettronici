@@ -1,11 +1,10 @@
 # Progetto-Sistemi-Elettronici &#x1F50C;
 
 ## Obiettivo
-Sviluppo di un firmware per la scheda PIC16F887 Cedar PIC Board che permette di regolare la luminosità dei LED della scheda tramite comandi inviati da un PC, utilizzando l'interfaccia seriale EUSART.
+Sviluppo di un firmware che permette di regolare la luminosità dei LED di una scheda ricevendo dei comandi inseriti da PC tramite l'interfaccia seriale EUSART.
 
 ## Strumenti utilizzati
-- Hardware: PIC16F887 (clock interno 4 MHz)
-- Scheda Cedar Pic Board
+- Hardware: PIC16F887 Cedar Pic Board (clock interno 4 MHz)
 - Ambiente di sviluppo: Microchip MPLAB X IDE
 - Linguaggio: Assembly
 - LED utilizzato: RD0
