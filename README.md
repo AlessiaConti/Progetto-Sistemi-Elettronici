@@ -13,15 +13,17 @@ Sviluppo di un firmware che permette di regolare la luminosità dei LED di una s
 ![pic](img/pic.jpg)
 
 ## Esecuzione
-Ricezione dati tramite EUSART
+Il codice è nel file [main.asm](https://github.com/AlessiaConti/Progetto-Sistemi-Elettronici/blob/main/main.asm)
 - Comandi:
   - (+) aumenta luminosità
   - (-) diminuisci luminosità
+- Ricezione dati tramite interfaccia seriale EUSART
 - Generazione manuale della PWM con TIMER1 per regolare luminosità
 - Microcontrollore in SLEEP quando possibile
-- Risveglio dallo SLEEP: break sulla seriale
+  - Risveglio dallo SLEEP: break sulla seriale
 - Ricezione dati: gestita tramite polling
 - Overflow timer1: gestito tramite interrupt
 
 ## Diagramma di flusso
 ![diagramma](img/tesina.jpg)
+
